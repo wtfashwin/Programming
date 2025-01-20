@@ -42,6 +42,7 @@ def missingNumber(arr):
     # then n+1 will be first positive missing number
     return n + 1
 
-if __name__ == "__main__":
+if __name__ == "__main__":\
+    
     arr = [2, -3, 4, 1, 1, 7]
     print(missingNumber(arr))
