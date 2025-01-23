@@ -61,7 +61,8 @@ class Solution:
         dirs = [(1,0), (-1,0), (0,1), (0,-1)]
         
         # BFS from water to land
-        while q:
+        
+        while q: 
             x, y = q.popleft()
             for dx, dy in dirs:
                 nx, ny = x + dx, y + dy
